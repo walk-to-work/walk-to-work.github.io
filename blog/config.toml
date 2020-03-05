@@ -1,5 +1,5 @@
 baseURL = "https://walk-to-work.github.io/blog/"
-title = "思考劃然"
+title = "hoge"
 themesDir = "./themes"
 theme = "m10c"
 paginate = 5

@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://walk-to-work.github.io/blog"
 title = "思考劃然"
 themesDir = "./themes"
 theme = "m10c"

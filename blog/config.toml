@@ -1,5 +1,4 @@
 baseURL = "https://walk-to-work.github.io/blog/"
-title = "hoge"
 themesDir = "./themes"
 theme = "m10c"
 paginate = 5
@@ -7,6 +6,7 @@ languageCode = "ja-jp"
 canonifyurls = true
 publishDir = "blog"
 hasCJKLanguage = true
+title = "劃然思考"
 
 [params]
   author = "walk_to_work"

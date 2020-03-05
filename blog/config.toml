@@ -1,9 +1,9 @@
-baseURL = "https://walk-to-work.github.io/blog"
-title = "hoge"
+baseURL = "https://walk-to-work.github.io/blog/"
+title = "思考劃然"
 themesDir = "./themes"
 theme = "m10c"
 paginate = 5
-
+languageCode = "ja-jp"
 [params]
   author = "walk_to_work"
   description = "整理"
@@ -13,8 +13,7 @@ paginate = 5
   [[params.social]]
     name = "twitter"
     url = "https://twitter.com/walk_to_work"
-
-	[[params.social]]
+ [[params.social]]
     name = "soundcloud"
     url = "https://soundcloud.com/walk_to_work"
 

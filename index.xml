@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>ラズパイでページ公開準備覚書</title>
+      <link>https://walk-to-work.github.io/posts/20200414_2/</link>
+      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://walk-to-work.github.io/posts/20200414_2/</guid>
+      <description>ラズパイを碌に触ったことがないなと思い、研究室にあったラズパイを拝借し、OSをブートして動かしている。 手始めにnginxでhtmlサーバ？を</description>
+    </item>
+    
+    <item>
       <title>始めた</title>
       <link>https://walk-to-work.github.io/posts/20200414/</link>
       <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>

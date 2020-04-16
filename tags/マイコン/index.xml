@@ -6,10 +6,19 @@
     <description>Recent content in マイコン on こっそり日記</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 14 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.walk-to.work/tags/%E3%83%9E%E3%82%A4%E3%82%B3%E3%83%B3/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>中華の怪しいコーヒーヒーターとNucleo32F303で低温調理器を作る（２）</title>
+      <link>https://www.walk-to.work/posts/ssr_test/</link>
+      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.walk-to.work/posts/ssr_test/</guid>
+      <description>ヒーターのオンオフで温度を調整したいので、SSRを用いることにした。 Nucleo32F303K8T6を注文した際に一緒に頼んだものだ。 SSR : http://akizukidenshi.com/catalog/g/gK-00203/</description>
+    </item>
     
     <item>
       <title>中華の怪しいコーヒーヒーターとNucleo32F303で低温調理器を作る（１）</title>

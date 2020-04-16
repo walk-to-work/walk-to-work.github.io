@@ -8,7 +8,17 @@
   </url>
   
   <url>
+    <loc>https://www.walk-to.work/tags/</loc>
+    <lastmod>2020-04-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.walk-to.work/</loc>
+    <lastmod>2020-04-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.walk-to.work/tags/%E3%83%9E%E3%82%A4%E3%82%B3%E3%83%B3/</loc>
     <lastmod>2020-04-16T00:00:00+00:00</lastmod>
   </url>
   
@@ -18,12 +28,12 @@
   </url>
   
   <url>
-    <loc>https://www.walk-to.work/posts/20200415/</loc>
-    <lastmod>2020-04-15T00:00:00+00:00</lastmod>
+    <loc>https://www.walk-to.work/tags/%E4%BD%8E%E6%B8%A9%E8%AA%BF%E7%90%86%E5%99%A8/</loc>
+    <lastmod>2020-04-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.walk-to.work/tags/</loc>
+    <loc>https://www.walk-to.work/posts/20200415/</loc>
     <lastmod>2020-04-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -43,22 +53,12 @@
   </url>
   
   <url>
-    <loc>https://www.walk-to.work/tags/%E3%83%9E%E3%82%A4%E3%82%B3%E3%83%B3/</loc>
-    <lastmod>2020-04-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.walk-to.work/posts/20200414_2/</loc>
     <lastmod>2020-04-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.walk-to.work/posts/20200414_3/</loc>
-    <lastmod>2020-04-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.walk-to.work/tags/%E4%BD%8E%E6%B8%A9%E8%AA%BF%E7%90%86%E5%99%A8/</loc>
     <lastmod>2020-04-14T00:00:00+00:00</lastmod>
   </url>
   

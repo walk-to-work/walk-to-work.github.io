@@ -12,12 +12,12 @@
     
     
     <item>
-      <title>なんかブログがアップロードできないが？</title>
+      <title>ブログのことをすっかり忘れていた．更に記事追加するにあたり色々面倒な障害があった．</title>
       <link>https://walk-to-work.github.io/posts/20210207/</link>
       <pubDate>Sun, 07 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>https://walk-to-work.github.io/posts/20210207/</guid>
-      <description>何？</description>
+      <description>問題1 クローンしたこのリポジトリでブログ記事が生成できない． 原因:HugoのテーマがCloneされてなかった． git submodule init git submodule update で解決した．そもそ</description>
     </item>
     
     <item>

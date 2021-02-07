@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="ja-jp">
   <head>
-    <title>なんかブログがアップロードできないが？ // こっそり日記</title>
+    <title>ブログのことをすっかり忘れていた．更に記事追加するにあたり色々面倒な障害があった． // こっそり日記</title>
     <meta charset="utf-8" />
     <meta name="generator" content="Hugo 0.65.3" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -11,11 +11,11 @@
 
     
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="なんかブログがアップロードできないが？"/>
-<meta name="twitter:description" content="何？"/>
+<meta name="twitter:title" content="ブログのことをすっかり忘れていた．更に記事追加するにあたり色々面倒な障害があった．"/>
+<meta name="twitter:description" content="問題1 クローンしたこのリポジトリでブログ記事が生成できない． 原因:HugoのテーマがCloneされてなかった． git submodule init git submodule update で解決した．そもそ"/>
 
-    <meta property="og:title" content="なんかブログがアップロードできないが？" />
-<meta property="og:description" content="何？" />
+    <meta property="og:title" content="ブログのことをすっかり忘れていた．更に記事追加するにあたり色々面倒な障害があった．" />
+<meta property="og:description" content="問題1 クローンしたこのリポジトリでブログ記事が生成できない． 原因:HugoのテーマがCloneされてなかった． git submodule init git submodule update で解決した．そもそ" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://walk-to-work.github.io/posts/20210207/" />
 <meta property="article:published_time" content="2021-02-07T00:00:00+00:00" />
@@ -51,7 +51,7 @@
       
   <article class="post">
     <header class="post-header">
-      <h1 class ="post-title">なんかブログがアップロードできないが？</h1>
+      <h1 class ="post-title">ブログのことをすっかり忘れていた．更に記事追加するにあたり色々面倒な障害があった．</h1>
       <div class="post-meta">
         <div>
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
@@ -65,7 +65,7 @@
   <title>clock</title>
   <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
 </svg>
-          1 min read
+          2 min read
         </div><div>
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
   <title>tag</title>
@@ -74,7 +74,20 @@
           </div></div>
     </header>
     <div class="post-content">
-      <p>何？</p>
+      <h2 id="問題1-クローンしたこのリポジトリでブログ記事が生成できない">問題1 クローンしたこのリポジトリでブログ記事が生成できない．</h2>
+<p>原因:HugoのテーマがCloneされてなかった．</p>
+<pre><code>git submodule init
+git submodule update
+</code></pre><p>で解決した．そもそもsubmoduleを使っている理由はないかもしれないので，そのうち変えるかも．</p>
+<h2 id="問題2-更新して生成した記事が追加されない">問題2 更新して生成した記事が追加されない</h2>
+<pre><code>hugo server
+</code></pre><p>で確認したページにはあったが，webページ上ではなかった．</p>
+<p>原因:submoduleだったから</p>
+<p>このブログはwalk-to-work.github.ioで公開されているが，管理は別のリポジトリで行っている．そのため，pushしようが公開用のリポジトリは更新されなかった．</p>
+<p>submoduleではなく普通にcloneしてpushして解決．submoduleの使い方をちゃんと学ぼう．</p>
+<h2 id="問題3-ドメインがバグってる">問題3 ドメインがバグってる</h2>
+<p>原因:GitHubの設定でwalk-to-work.github.ioにwalk-to.workを割り当てて云々していたが，おかしなところを書いてた．</p>
+<p>GitHubのwalk-to-work.github.ioの[Setting] &gt; [Custom Domain]に&quot;https:wwww.walk-to.work&quot;と書いたら治った．なんで？</p>
 
     </div>
     <div class="post-footer">
